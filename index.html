@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chat Jadinha</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Chat da Jadinha</h2>
+            <p class="teste">Horário <strong id="hora">Hora aqui</strong></p>
+        
+            <hr>
+            <div id="mostrar">
+                <p id="texto"></p>
+            </div>
+            <div class="fixadobottom">
+                <hr>
+                <input type="text" name="msg" id="txtmsg">
+                <input type="button" value="Enviar" id="botao" onclick="enviarmensagem()">
+            </div>
+        </div>
+        <script src="js/events.js">
+        </script>
+        <script>
+            let mostrar = document.getElementById('mostrar')
+            mostrar.style.overflow = "auto"
+        </script>
+    </body>
+</html>

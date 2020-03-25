@@ -1,0 +1,48 @@
+body{
+    background: rgb(18, 148, 187);
+}
+.container{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.36);
+	text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+.teste{
+    color:  #999999;
+}
+.fixadobottom{
+    width: 700px;
+    position: absolute;
+    bottom: 30px;
+    margin: auto;
+}
+#mostrar{
+    width: 700px;
+    height: 300px;
+   
+
+}
+#txtmsg{
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #1567c5;
+    width: 300px;
+    height: 35px;
+}
+#botao{
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    background:  #1567c5;
+    color: white;
+}
+#texto{
+    background: blue;
+}
